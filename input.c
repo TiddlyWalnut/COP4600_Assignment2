@@ -4,6 +4,7 @@
 #include <linux/mutex.h>
 #include <linux/slab.h>
 #include <asm/uaccess.h>
+#include <linux/wait.h>
 
 #define DEVICE_NAME "input_device"
 #define BUFFER_SIZE 256
